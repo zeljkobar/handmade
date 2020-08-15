@@ -86,3 +86,15 @@ nav ul li a {
     color: var(--white);
     font-style: italic;
 }
+/*******************
+about
+********************/
+.about {
+    padding: var(--padding);
+    background: var(--lightgray);
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.8rem;
+}
