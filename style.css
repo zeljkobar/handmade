@@ -54,7 +54,7 @@ h2::after {
 button {
     background-color: var(--orange);
     border: none;
-    padding: 15px;
+    padding: 15px 30px;
     color: var(--white);
     font-size: 0.9rem;
     text-transform: uppercase;
