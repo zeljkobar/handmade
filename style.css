@@ -32,6 +32,11 @@ a {
     width: 80%;
     margin: auto;
 }
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 h2 {
     font-size: 2rem;
@@ -113,7 +118,7 @@ about
     font-size: 2.8rem;
 }
 /*******************
-about
+services
 ********************/
 .services {
     padding: var(--padding);
@@ -129,4 +134,27 @@ about
 .services article h3 {
     font-size: 1.6rem;
     padding-bottom: 20px;
+}
+/*******************
+works
+********************/
+.works {
+    background: var(--lightgray);
+    padding: var(--padding);
+    text-align: center;
+}
+
+.works img {
+    width: 100%;
+    height: auto;
+}
+
+.works article {
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+.works article h5 {
+    font-size: 1.5rem;
+    padding: 20px 0;
 }
